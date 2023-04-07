@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/studios.css"> 
+    <title> Anime Browser </title>
+</head>
+<body>
+
+    <header>
+
+        <div class="logoBox">
+            <img src="https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/62a73303a1d153616957be6d_Anime-logo.png"/>
+        </div>
+
+        <nav> 
+            <a class="item" href="home.html"> Home </a>
+            <a class="item" href="tags.html"> Tags </a>
+            <a class="item" href="demographics.html"> Demographics </a>
+            <a class="item" href="studios.html"> Studios </a>
+            <a class="item" href="seasons.html"> Seasons </a>
+        </nav>
+
+    </header>
+
+    <div class="tagBox">
+
+        <div class="studioSearchBox">
+            <h1 class="studioTitle"> Studios </h1>
+
+            <div class="basicSearch">
+                <input id="search" type="text" placeholder="Search studio..."> 
+                <button id="searchBtn" onclick=searchByStudio()> Go! </button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <main >
+
+        <div class="header">
+            <h1 class="wideRow"> Name and Logo </h1>
+            <h1> Animes Produced</h1>
+        </div>
+
+        <div class="wrapper" id="renderSearchBox">
+        
+
+
+        </div>
+    </main>
+
+
+
+</body>
+<script src="/JS/renderLogic.js"> </script>
+<script src="/JS/studios.js"> </script>
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/advanced.css"> 
+    <title> Anime Browser </title>
+</head>
+<body>
+
+    <header>
+
+        <div class="logoBox">
+            <img src="https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/62a73303a1d153616957be6d_Anime-logo.png"/>
+        </div>
+
+        <nav> 
+            <a class="item" href="home.html"> Home </a>
+            <a class="item" href="tags.html"> Tags </a>
+            <a class="item" href="demographics.html"> Demographics </a>
+            <a class="item" href="studios.html"> Studios </a>
+            <a class="item" href="seasons.html"> Seasons </a>
+        </nav>
+
+    </header>
+    
+    <div class="searchBox">
+        <h1 class="mainTitle"> Advanced Search </h1>     
+        <div class="optionBox">
+
+            <div class="item">
+                <p class="label"> Tags </p>
+
+                <div class="tagsBox" id="tagsBox">
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Action"> 
+                        <label> Action </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Adult Cast"> 
+                        <label> Adult Cast </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Adventure"> 
+                        <label> Adventure </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Anthropomorphic"> 
+                        <label> Anthopomorphic </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Avant Garde"> 
+                        <label> Avant Garde </label>
+                    </div>  
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Award Winning"> 
+                        <label> Award Winning </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="CDGCT"> 
+                        <label> CGDCT </label>
+                    </div>
+
+                    <div class="tag">
+                        <input type="checkbox" value="Childcare">
+                        <label> Childcare </label> 
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Combat Sports"> 
+                        <label> Combat Sports </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Comedy"> 
+                        <label> Comedy </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Delinquents"> 
+                        <label> Delinquents </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Detective"> 
+                        <label> Detective </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Drama"> 
+                        <label> Drama </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Educational"> 
+                        <label> Educational </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Fantasy"> 
+                        <label> Fantasy </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Gag Humor"> 
+                        <label> Gag Humor </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Gore"> 
+                        <label> Gore </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Gourmet"> 
+                        <label> Gourmet </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Harem">
+                        <label> Harem </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="High Stakes Game"> 
+                        <label> High Stakes Game </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Historical"> 
+                        <label> Historical </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Horror"> 
+                        <label> Horror </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Idols Female"> 
+                        <label> Idols (Female) </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Idols Male"> 
+                        <label> Idols (Male) </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Isekai"> 
+                        <label> Isekai </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Iyashikei"> 
+                        <label> Iyashikei </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Love Polygon"> 
+                        <label> Love Polygon </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Mahou Shoujo"> 
+                        <label> Mahou Shoujo </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Martial Arts"> 
+                        <label> Martial Arts </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Mecha"> 
+                        <label> Mecha </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Medical"> 
+                        <label> Medical </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Military"> 
+                        <label> Military </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Music"> 
+                        <label> Music </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Mystery"> 
+                        <label> Mystery </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Mythology"> 
+                        <label> Mythology </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Organized Crime"> 
+                        <label> Organized Crime </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Otaku Culture"> 
+                        <label> Otaku Culture </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Parody"> 
+                        <label> Parody </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Performing Arts"> 
+                        <label> Performing Arts </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Pets"> 
+                        <label> Pets </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Psychological"> 
+                        <label> Psychological </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Racing"> 
+                        <label> Racing </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Reincarnation"> 
+                        <label> Reincarnation </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Reverse Harem"> 
+                        <label> Reverse Harem </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Romance"> 
+                        <label> Romance </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Romantic Subtext"> 
+                        <label> Romantic Subtext </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Samurai"> 
+                        <label> Samurai </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="School"> 
+                        <label> School </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Sci-Fi"> 
+                        <label> Sci-Fi </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Showbiz"> 
+                        <label> Showbiz </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Slice of Life"> 
+                        <label> Slice of Life </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Space"> 
+                        <label> Space </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Sports"> 
+                        <label> Sports </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Strategy Game"> 
+                        <label> Strategy Game </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Super Powe"> 
+                        <label> Super Powers </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Supernatural"> 
+                        <label> Supernatural </label>
+                    </div>
+
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Survival"> 
+                        <label> Survival </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Suspense"> 
+                        <label> Suspense </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Team Sports"> 
+                        <label> Team Sports </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Time Travel"> 
+                        <label> Time Travel </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Vampire"> 
+                        <label> Vampire </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Video Game"> 
+                        <label> Video Game </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Visual Arts"> 
+                        <label> Visual Arts </label>
+                    </div>
+
+                    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Workplace"> 
+                        <label> Workplace </label>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="item">
+                <p class="label"> Filter +18 Content? </p>
+                <div id="sfwSwitch" onclick="sfwSwitch()"> YES </div>
+            </div>
+
+            <div class="item">
+                <p class="label"> Demographics </p>
+
+                <div class="demographicsBox" id="demographicsBox">
+                    <div class="demographic">
+                        <input  class="demographicRadioBtn" type="radio" name="demographics" value="Josei"> 
+                        <label> Josei </label> 
+                    </div>
+
+                    <div class="demographic">
+                        <input  class="demographicRadioBtn" type="radio" name="demographics" value="Kodomo"> 
+                        <label> Kodomo </label> 
+                    </div>
+
+                    <div class="demographic">
+                        <input  class="demographicRadioBtn" type="radio" name="demographics" value="Seinen"> 
+                        <label> Seinen </label> 
+                    </div>
+
+                    <div class="demographic">
+                        <input  class="demographicRadioBtn" type="radio" name="demographics" value="Shoujo"> 
+                        <label> Shoujo </label> 
+                    </div>
+
+                    <div class="demographic">
+                        <input class="demographicRadioBtn" type="radio" name="demographics" value="Shounen"> 
+                        <label> Shounen </label> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <p class="label"> Type </p>
+
+                <div class="mediaTypeBox" id="mediaTypeBox">
+                    <div class="mediaType">
+                        <input  class="mediaTypeRadioBtn" type="radio" name="mediaType" value="movie"> 
+                        <label> Movie </label> 
+                    </div>
+
+                    <div class="mediaType">
+                        <input  class="mediaTypeRadioBtn" type="radio" name="mediaType" value="music"> 
+                        <label> Music </label> 
+                    </div>
+
+                    <div class="mediaType">
+                        <input  class="mediaTypeRadioBtn" type="radio" name="mediaType" value="ona"> 
+                        <label> ONA </label> 
+                    </div>
+
+                    <div class="mediaType">
+                        <input  class="mediaTypeRadioBtn" type="radio" name="mediaType" value="ova"> 
+                        <label> OVA </label> 
+                    </div>
+
+                    <div class="mediaType">
+                        <input class="mediaTypeRadioBtn" type="radio" name="mediaType" value="special"> 
+                        <label> Special </label> 
+                    </div>
+
+                    <div class="mediaType">
+                        <input class="mediaTypeRadioBtn" type="radio" name="mediaType" value="tv"> 
+                        <label> Tv </label> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <p class="label"> Studios </p>
+                <div class="studioBox">
+                    <input type="text" placeholder="Studio name..." id="studioName">
+                </div>
+            </div>
+
+            <div class="item">
+                <p class="label"> Year </p>
+                <div class="wrapper">    
+                    <input id="seasonYear" type="number" min="1917" placeholder="Year...">
+                    </div>
+            </div>
+
+            <div class="item">
+                <p class="label"> Explicit Tags </p>
+                
+                <div class="tagsBox" id="explicitTagsBox">
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value=" Boys Love"> 
+                        <label> Boys Love </label>
+                    </div>
+    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Crossdressing"> 
+                        <label> Crossdressing </label>
+                    </div>
+    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Ecchi"> 
+                        <label> Ecchi </label>
+                    </div>
+    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Erotica"> 
+                        <label> Erotica </label>
+                    </div>
+    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Girls Love"> 
+                        <label> Girls Love </label>
+                    </div>
+    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Hentai"> 
+                        <label> Hentai </label>
+                    </div>
+    
+                    <div class="tag">
+                        <input class="tagCheck" type="checkbox" value="Magical Sex Shift"> 
+                        <label> Magical Sex Shift </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <button onclick="advancedSearch()"> Search! </button> 
+        </div>
+    </div>
+
+
+    <main id="renderSearchBox">
+
+    </main>
+
+
+
+</body>
+<script src="/JS/renderLogic.js"> </script>
+<script src="/JS/advanced.js"> </script>
+</html>

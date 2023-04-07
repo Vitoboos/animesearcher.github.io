@@ -1,0 +1,160 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:#7fb3ee;
+    display: grid;
+    grid-template-columns: 20vw auto;
+}
+
+header .logoBox img{
+    display: block;
+    width: 20vw;
+    height: 15vh;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+header nav .item{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    color: white;
+}
+
+.tagBox{
+    margin: 0px 5vw;
+    margin-top: 14vh;
+    display: grid;
+}
+
+.tagBox .studioSearchBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagBox .basicSearch{
+    margin: 2vh 15vw;
+    padding: 3vh 5vw;
+    text-align: center;
+    border: dashed #627bc9 0.25vw;
+}
+
+.tagBox .basicSearch input{
+    padding: 0px 2vw;   
+}
+
+.tagBox .studioSearchBox .studioTitle{
+    color: white;
+    width: 100%;
+    background-color: #627bc9;
+    text-align: center;
+    border-radius: 5vw;
+    text-decoration: underline;
+}
+
+.tagBox .studioSearchBox .basicSearch #search{
+    width: 30vw;
+    padding: 5px;
+}
+.basicSearch button{
+    background-color: #9ab0f3;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    border: groove #9ab0f3 0.5vh;
+}
+
+.basicSearch button:hover{
+    cursor: pointer;
+    border: ridge #9ab0f3 thin;
+
+}
+
+.tagBox .studioSearchBox .basicSearch #searchBtn{
+    width: 10vw;
+    padding: 5px;
+}
+
+.tagTitle{
+    color: white;
+    background-color: #627bc9;
+    width: 100%;
+    text-align: left;
+    text-decoration: underline;
+
+    border-top-right-radius: 50vw;
+    border-bottom-right-radius: 50vw;
+    font-size: 28px;
+}
+
+main .header{
+    grid-column: span 3;
+    display: grid;
+    margin: 1vh 2vw;
+}
+
+main .header{
+    background-color: #627bc9;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main .header h1{
+    color: white;
+    font-size: 28px;
+}
+
+main .header .wideRow{
+    grid-column: span 2;
+}
+
+main .animeBox{
+    margin: 1vh 4vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid black thin;
+    border-radius: 15px;
+}
+
+main .animeBox:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px;
+}
+
+main .animeBox .titleBox{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 32px;
+}
+
+main .animeBox .studioCover{
+    width: 100%;
+    height: 30vh;
+}
+
+main .animeBox .studioCount{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 64px;
+}

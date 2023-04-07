@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/tags.css"> 
+    <title> Anime Browser </title>
+</head>
+<body>
+
+    <header>
+
+        <div class="logoBox">
+            <img src="https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/62a73303a1d153616957be6d_Anime-logo.png"/>
+        </div>
+
+        <nav> 
+            <a class="item" href="home.html"> Home </a>
+            <a class="item" href="tags.html"> Tags </a>
+            <a class="item" href="demographics.html"> Demographics </a>
+            <a class="item" href="studios.html"> Studios </a>
+            <a class="item" href="seasons.html"> Seasons </a>
+        </nav>
+
+    </header>
+
+    <div class="tagBox">
+
+        <div>
+            <h1 class="tagTitle"> Tags </h1>
+
+            <div class="wrapper">
+                <div class="item" onclick="searchByGenre('Action')"> Action </div>
+                <div class="item" onclick="searchByGenre('Adult Cast')"> Adult Cast </div>
+                <div class="item" onclick="searchByGenre('Adventure')"> Adventure </div>
+                <div class="item" onclick="searchByGenre('Anthropomorphic')"> Anthropomorphic </div>
+                <div class="item" onclick="searchByGenre('Avant Garde')"> Avant Garde </div>
+                <div class="item" onclick="searchByGenre('Award Winning')"> Award Winning </div>
+                <div class="item" onclick="searchByGenre('CDGCT')"> CGDCT </div>
+                <div class="item" onclick="searchByGenre('Childcare')"> Childcare </div>
+                <div class="item" onclick="searchByGenre('Combat Sports')"> Combat Sports </div>
+                <div class="item" onclick="searchByGenre('Comedy')"> Comedy </div>
+                <div class="item" onclick="searchByGenre('Delinquents')"> Delinquents </div>
+                <div class="item" onclick="searchByGenre('Detective')"> Detective </div>
+                <div class="item" onclick="searchByGenre('Drama')"> Drama </div>
+                <div class="item" onclick="searchByGenre('Educational')"> Educational </div>
+                <div class="item" onclick="searchByGenre('Fantasy')"> Fantasy </div>
+                <div class="item" onclick="searchByGenre('Gag Humor')"> Gag Humor </div>
+                <div class="item" onclick="searchByGenre('Gore')"> Gore </div>
+                <div class="item" onclick="searchByGenre('Gourmet')"> Gourmet </div>
+                <div class="item" onclick="searchByGenre('Harem')"> Harem </div>
+                <div class="item" onclick="searchByGenre('High Stakes Game')"> High Stakes Game </div>
+                <div class="item" onclick="searchByGenre('Historical')"> Historical </div>
+                <div class="item" onclick="searchByGenre('Horror')"> Horror </div> 
+                <div class="item" onclick="searchByGenre('Idols Female')"> Idols (Female) </div>
+                <div class="item" onclick="searchByGenre('Idols Male')"> Idols (Male) </div>
+                <div class="item" onclick="searchByGenre('Isekai')"> Isekai </div> 
+                <div class="item" onclick="searchByGenre('Iyashikei')"> Iyashikei </div> 
+                <div class="item" onclick="searchByGenre('Love Polygon')"> Love Polygon </div>
+                <div class="item" onclick="searchByGenre('Mahou Shoujo')"> Mahou Shoujo </div>
+                <div class="item" onclick="searchByGenre('Martial Arts')"> Martial Arts </div>
+                <div class="item" onclick="searchByGenre('Mecha')"> Mecha </div>
+                <div class="item" onclick="searchByGenre('Medical')"> Medical </div>
+                <div class="item" onclick="searchByGenre('Military')"> Military </div> 
+                <div class="item" onclick="searchByGenre('Music')"> Music </div>
+                <div class="item" onclick="searchByGenre('Mystery')"> Mystery </div>
+                <div class="item" onclick="searchByGenre('Mythology')"> Mythology </div>
+                <div class="item" onclick="searchByGenre('Organized Crime')"> Organized Crime </div> 
+                <div class="item" onclick="searchByGenre('Otaku Culture')"> Otaku Culture </div> 
+                <div class="item" onclick="searchByGenre('Parody')"> Parody </div> 
+                <div class="item" onclick="searchByGenre('Performing Arts')"> Performing Arts </div>
+                <div class="item" onclick="searchByGenre('Pets')"> Pets </div>
+                <div class="item" onclick="searchByGenre('Psychological')"> Psychological </div>
+                <div class="item" onclick="searchByGenre('Racing')"> Racing </div>
+                <div class="item" onclick="searchByGenre('Reincarnation')"> Reincarnation </div>
+                <div class="item" onclick="searchByGenre('Reverse Harem')"> Reverse Harem </div>
+                <div class="item" onclick="searchByGenre('Romance')"> Romance </div>
+                <div class="item" onclick="searchByGenre('Romantic Subtext')"> Romantic Subtext </div>
+                <div class="item" onclick="searchByGenre('Samurai')"> Samurai </div>
+                <div class="item" onclick="searchByGenre('School')"> School </div> 
+                <div class="item" onclick="searchByGenre('Sci-Fi')"> Sci-Fi </div>
+                <div class="item" onclick="searchByGenre('Showbiz')"> Showbiz </div>
+                <div class="item" onclick="searchByGenre('Slice of Life')"> Slice of Life </div>
+                <div class="item" onclick="searchByGenre('Space')"> Space </div>
+                <div class="item" onclick="searchByGenre('Sports')"> Sports </div>
+                <div class="item" onclick="searchByGenre('Strategy Game')"> Strategy Game </div>
+                <div class="item" onclick="searchByGenre('Super Power')"> Super Powers </div>
+                <div class="item" onclick="searchByGenre('Supernatural')"> Supernatural </div>
+                <div class="item" onclick="searchByGenre('Survival')"> Survival </div>
+                <div class="item" onclick="searchByGenre('Suspense')"> Suspense </div>
+                <div class="item" onclick="searchByGenre('Team Sports')"> Team Sports </div>
+                <div class="item" onclick="searchByGenre('Time Travel')"> Time Travel </div>
+                <div class="item" onclick="searchByGenre('Vampire')"> Vampire </div>
+                <div class="item" onclick="searchByGenre('Video Game')"> Video Game </div>
+                <div class="item" onclick="searchByGenre('Visual Arts')"> Visual Arts </div>
+                <div class="item" onclick="searchByGenre('Workplace')"> Workplace </div>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="tagTitle"> Explicit Tags </h1> 
+            
+            <div class="wrapper">
+                <div class="item" onclick="searchByGenre('Boys Love')"> Boys Love </div>
+                <div class="item" onclick="searchByGenre('Crossdressing')"> Crossdressing </div>
+                <div class="item" onclick="searchByGenre('Ecchi')"> Ecchi </div>
+                <div class="item" onclick="searchByGenre('Erotica')"> Erotica </div>
+                <div class="item" onclick="searchByGenre('Girls Love')"> Girls Love </div>
+                <div class="item" onclick="searchByGenre('Hentai')"> Hentai </div>
+                <div class="item" onclick="searchByGenre('Magical Sex Shift')"> Magical Sex Shift </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <main id="renderSearchBox">
+
+    </main>
+
+
+
+</body>
+<script src="/JS/renderLogic.js"> </script>
+<script src="/JS/tags.js"> </script>
+</html>

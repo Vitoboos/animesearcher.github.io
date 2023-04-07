@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/season.css"> 
+    <title> Anime Browser </title>
+</head>
+<body>
+
+    <header>
+
+        <div class="logoBox">
+            <img src="https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/62a73303a1d153616957be6d_Anime-logo.png"/>
+        </div>
+
+        <nav> 
+            <a class="item" href="home.html"> Home </a>
+            <a class="item" href="tags.html"> Tags </a>
+            <a class="item" href="demographics.html"> Demographics </a>
+            <a class="item" href="studios.html"> Studios </a>
+            <a class="item" href="seasons.html"> Seasons </a>
+        </nav>
+
+    </header>
+
+    <div class="searchBox">
+
+        <div>
+            <h1 class="title"> Seasons </h1>
+
+            <div class="wrapper">
+                <select id="seasonPhase">
+                    <option selected disabled> Choose season </option>
+                    <option> Spring </option>
+                    <option> Summer </option>
+                    <option> Fall </option>
+                    <option> Winter </option>
+                </select>
+
+                <input id="seasonYear" type="number" min="1917">
+
+                <button onclick="searchBySeason()"> Search! </button>
+            </div>
+        </div>
+
+    </div>
+
+    <main id="renderSearchBox">
+
+    </main>
+
+</body>
+<script src="/JS/renderLogic.js"> </script>
+<script src="/JS/seasons.js"> </script>
+</html>

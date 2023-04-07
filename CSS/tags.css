@@ -1,0 +1,135 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:#7fb3ee;
+    display: grid;
+    grid-template-columns: 20vw auto;
+}
+
+header .logoBox img{
+    display: block;
+    width: 20vw;
+    height: 15vh;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+header nav .item{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    color: white;
+}
+
+.tagBox{
+    margin: 0px 5vw;
+    margin-top: 16vh;
+}
+
+.tagTitle{
+    color: white;
+    background-color: #627bc9;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+
+    border-top-right-radius: 50vw;
+    border-bottom-right-radius: 50vw;
+    font-size: 28px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+}
+
+.wrapper .item{
+    padding: 5px;
+    color: white;
+    background-color: #7495bb;
+    border: solid black thin;
+    text-align: center;
+}
+
+.wrapper .item:hover{
+    background-color: #627bc9;
+    cursor: pointer;
+}
+
+main{
+    margin: 2vh 5vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+main .animeBox{
+    border: solid black thin;
+}
+
+main .animeBox:hover .titleBox, main .animeBox:hover{
+    color: white;
+    background: rgb(51,102,153);
+    background: linear-gradient(360deg, rgba(51,102,153,1) 15%, rgba(37,77,117,1) 85%);
+}
+
+main .animeBox .titleBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    background-color: #1c2c5c;
+    width: 100%;
+    height: 10vh;
+
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+main .animeBox .animeTitle{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+main .animeBox .animeCover{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 35vh;
+}
+
+main .animeBox .animeEpisodes{
+    text-align: center;
+    padding: 2.5px;
+    margin: 0px;
+    background-color: #627bc9;
+    color: white;
+    border-top: dashed #1c2c5c thick;
+}
+
+main .animeBox .animeDuration{
+    text-align: center;
+    padding: 2.5px;
+    margin: 0px;
+    background-color: #627bc9;
+    color: white;
+    border-bottom: dashed #1c2c5c thick;
+}
+
+main .animeBox .animeScore{
+    text-align: center;
+    font-size: 20px;
+}
